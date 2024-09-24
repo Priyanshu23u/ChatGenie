@@ -1,0 +1,155 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+        "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+        "context": [""]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+        "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+        "context": [""]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+        "responses": ["My pleasure", "You're welcome!"],
+        "context": [""]
+      },
+      {
+        "tag": "query",
+        "patterns": ["What is Simplilearn?"],
+        "responses": ["Simplilearn is the popular online Bootcamp & online courses learning platform."],
+        "context": [""]
+      },
+      {
+        "tag": "weather",
+        "patterns": ["What's the weather like?", "How's the weather today?", "Is it going to rain?", "Tell me the weather", "What's the forecast?"],
+        "responses": ["I'm not sure, but it's always sunny in my world!", "I can't check the weather, but I hope it's nice!", "Check your favorite weather app for accurate updates."],
+        "context": [""]
+      },
+      {
+        "tag": "hobbies",
+        "patterns": ["What are your hobbies?", "What do you like to do?", "Tell me about your interests.", "What do you enjoy?"],
+        "responses": ["I enjoy chatting with you!", "I love learning new things.", "I'm always here to help you!"],
+        "context": [""]
+      },
+      {
+        "tag": "feelings",
+        "patterns": ["How are you feeling?", "Are you happy?", "What's your mood?", "How's it going?"],
+        "responses": ["I'm just a program, but I'm happy to help you!", "I don't have feelings, but I'm here for you!", "I'm feeling very chatty today!"],
+        "context": [""]
+      },
+      {
+        "tag": "favorite_color",
+        "patterns": ["What's your favorite color?", "Do you have a favorite color?", "What color do you like?"],
+        "responses": ["I like all colors equally! How about you?", "Colors are beautiful, but I can't pick one."],
+        "context": [""]
+      },
+      {
+        "tag": "joke",
+        "patterns": ["Tell me a joke.", "Make me laugh.", "Do you know any jokes?", "Say something funny."],
+        "responses": ["Why don't scientists trust atoms? Because they make up everything!", "I'm on a seafood diet. I see food, and I eat it!"],
+        "context": [""]
+      },
+      {
+        "tag": "random_fact",
+        "patterns": ["Tell me a random fact.", "I want to learn something new.", "Share an interesting fact."],
+        "responses": ["Did you know honey never spoils?", "Octopuses have three hearts!"],
+        "context": [""]
+      },
+      {
+        "tag": "hobbies",
+        "patterns": ["What do you do for fun?", "What are some hobbies you enjoy?", "Tell me about a hobby."],
+        "responses": ["I enjoy chatting with you! What are your hobbies?", "I love learning new things every day!"],
+        "context": [""]
+      },
+      {
+        "tag": "food",
+        "patterns": ["What's your favorite food?", "Do you like pizza?", "What do you eat?"],
+        "responses": ["I can't eat, but I hear pizza is popular!", "I love the idea of food, especially pizza!"],
+        "context": [""]
+      },
+      {
+        "tag": "compliment",
+        "patterns": ["You're great", "I like this", "You're amazing", "This is helpful", "Nice bot"],
+        "responses": ["Thank you!", "You're too kind!", "I appreciate that!"],
+        "context": [""]
+      },
+      {
+        "tag": "age",
+        "patterns": ["How old are you?", "What's your age?", "When were you created?"],
+        "responses": ["I'm as old as the internet!", "I'm forever young.", "Age is just a number for a chatbot like me!"],
+        "context": [""]
+      },
+      {
+        "tag": "name",
+        "patterns": ["What's your name?", "Who are you?", "Do you have a name?"],
+        "responses": ["I'm a friendly chatbot!", "You can call me whatever you'd like!", "I'm your helpful assistant!"],
+        "context": [""]
+      },
+      {
+        "tag": "creator",
+        "patterns": ["Who created you?", "Who made you?", "Who is your developer?"],
+        "responses": ["I was created by a team of talented developers.", "I was built by a group of smart humans!"],
+        "context": [""]
+      },
+      {
+        "tag": "location",
+        "patterns": ["Where are you from?", "Where do you live?", "Where are you?"],
+        "responses": ["I'm from the cloud!", "I live in the digital world."],
+        "context": [""]
+      },
+      {
+        "tag": "help",
+        "patterns": ["Can you help me?", "I need assistance", "Help me", "I need help"],
+        "responses": ["Of course! How can I assist you?", "Sure! Let me know what you need help with."],
+        "context": [""]
+      },
+      {
+        "tag": "music",
+        "patterns": ["What music do you like?", "Do you listen to music?", "What's your favorite song?"],
+        "responses": ["I enjoy all types of music, but I can't listen like you do!", "Music is amazing, isn't it?"],
+        "context": [""]
+      },
+      {
+        "tag": "programming_language",
+        "patterns": ["What programming languages do you know?", "What are you programmed in?", "Can you code?"],
+        "responses": ["I'm built using Python, but I can understand many programming languages.", "I was programmed using advanced techniques in various languages."],
+        "context": [""]
+      },
+      {
+        "tag": "time",
+        "patterns": ["What time is it?", "Can you tell me the time?", "What's the time?"],
+        "responses": ["I don't have a clock, but you can check your local time!", "Time flies when you're having fun chatting with me!"],
+        "context": [""]
+      },
+      {
+        "tag": "day",
+        "patterns": ["What day is it?", "What's today?", "Can you tell me the date?"],
+        "responses": ["Today is a wonderful day!", "You can check your calendar for the exact date."],
+        "context": [""]
+      },
+      {
+        "tag": "book_recommendation",
+        "patterns": ["Can you recommend a book?", "What's a good book to read?", "Suggest me a book."],
+        "responses": ["I recommend 'Sapiens' by Yuval Noah Harari!", "Have you read 'Atomic Habits'? It's a great book!"],
+        "context": [""]
+      },
+      {
+        "tag": "movie_recommendation",
+        "patterns": ["Can you recommend a movie?", "What movie should I watch?", "Suggest me a good movie."],
+        "responses": ["How about 'Inception'? It's a great movie!", "You should watch 'The Matrix' if you haven't already!"],
+        "context": [""]
+      },
+      {
+        "tag": "news",
+        "patterns": ["What's the latest news?", "Tell me the news", "Any updates in the news?"],
+        "responses": ["I don't have live updates, but you can check a news site!", "Stay updated with your favorite news app."],
+        "context": [""]
+      }
+    ]
+  }
+  
